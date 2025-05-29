@@ -1,4 +1,6 @@
 const express = require('express')
+const cors = require("cors");
+const serverless = require("serverless-http");
 const app = express()
 
 const { initializeDataBase } = require('./db/db.connect')
